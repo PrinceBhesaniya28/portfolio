@@ -1,3 +1,19 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+html {
+    font-family: var(--font-archivo), sans-serif;
+    /* ✅ Fallback to sans-serif */
+}
+.section{
+    @apply py-24 md:py-32 lg:py-40;
+}
+
+.line {
+    @apply overflow-hidden;
+}
+
+.word {
+    @apply translate-y-full;
+}

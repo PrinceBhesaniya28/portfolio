@@ -13,8 +13,8 @@ const config: Config = {
             lg: '1200px',
         }, 
         extend: {
-            fontfamily: {
-               sans: 'var(--font-archivo/)' 
+            fontFamily: {
+               sans: ["var(--font-archivo)", "sans-serif"],
             },
             container: {
                 center: true,
