@@ -46,6 +46,9 @@ const Testimonials: FC = () => {
     offset: ["start end", "end start"],
   });
 
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
+
+
   const transformTop = useTransform(scrollYProgress, [0, 1], ["0%", "15%"]);
   const transformBottom = useTransform(scrollYProgress, [0, 1], ["0%", "-15%"]);
 

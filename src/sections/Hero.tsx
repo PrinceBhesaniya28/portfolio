@@ -23,6 +23,9 @@ const Hero: FC = () => {
 
   // 12/5 =2.4*100 = 240
 
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
+
+
   useEffect(() => {
     new SplitType(titleScope.current, {
       types: 'lines,words',

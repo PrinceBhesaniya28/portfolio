@@ -18,6 +18,9 @@ const Intro: FC = () => {
     });
   }, [scope]);
 
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
+
+
   useEffect(() => {
     if (inView) {
       animate(scope.current.querySelectorAll('.word'), {
